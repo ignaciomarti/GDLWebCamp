@@ -290,7 +290,7 @@ textarea {
   position: relative;
   height: 70vh;
   background-image: url(../img/bg-talleres.jpg);
-  background-size: cover;
+  background-position: center center;
 }
 @media (min-width: 768px){
   .conferencias{
@@ -628,7 +628,8 @@ textarea {
 .newsletter{
   background-image: url(../img/bg-newsletter.jpg);
   background-attachment: fixed;
-  background-size: cover;
+
+  background-position: center center;
   display: flex;
   flex-direction: column;
   align-items: center;
