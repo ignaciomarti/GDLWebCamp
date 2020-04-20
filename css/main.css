@@ -426,9 +426,8 @@ textarea {
   column-gap: 3rem;
   row-gap: 3rem;
   background-image: url(../img/bg-resumen.jpg);
-  background-attachment: fixed;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-size: cover;
   padding: 4rem 2rem;
 }
 
@@ -634,7 +633,6 @@ textarea {
 .newsletter{
   background-image: url(../img/bg-newsletter.jpg);
   background-attachment: fixed;
-
   background-position: center center;
   display: flex;
   flex-direction: column;
