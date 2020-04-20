@@ -126,7 +126,7 @@ textarea {
   *{
     box-sizing: border-box;
   }
-  /* INDEX */
+  /* HEADER INDEX */
   
    .index-header{
     background-image: url(../img/encabezado.jpg);
@@ -213,6 +213,7 @@ textarea {
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 1rem 1.5rem;
   font-size: 2rem;
+  -webkit-appearance: none;
 }
 @media (min-width: 768px){
   .contenedor-navegacion{
@@ -288,10 +289,10 @@ textarea {
 /* INICIO SECCION CONFERENCIAS*/
 .conferencias{
   position: relative;
-  height: 70vh;
   background-image: url(../img/bg-talleres.jpg);
   background-position: center center;
   background-size: cover;
+  display: block;
 }
 @media (min-width: 768px){
   .conferencias{
@@ -310,10 +311,14 @@ textarea {
 
 .contenedor-programa{
   background-color: rgba(255, 255, 255, 0.8);
-  position: absolute;
-  top: 0;
   padding: 2rem;
   width: 100%;
+}
+@media (min-width:768px){
+  .contenedor-programa{
+    position: absolute;
+    top: 0;
+  }
 }
 .navegacion-programa a{
   display: block;
