@@ -291,6 +291,7 @@ textarea {
   height: 70vh;
   background-image: url(../img/bg-talleres.jpg);
   background-position: center center;
+  background-size: cover;
 }
 @media (min-width: 768px){
   .conferencias{
@@ -422,7 +423,6 @@ textarea {
   background-image: url(../img/bg-resumen.jpg);
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
   padding: 4rem 2rem;
 }
 
